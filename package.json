@@ -1,0 +1,50 @@
+{
+    "name": "strapi-provider-upload-clamav-proxy",
+    "version": "1.0.0",
+    "description": "Strapi file upload anti-virus and sanitisation provider",
+    "homepage": "https://github.com/beavis07/strapi-provider-upload-clamav-proxy",
+    "keywords": [
+        "upload",
+        "clamav",
+        "anti-virus",
+        "strapi"
+    ],
+    "directories": {
+        "lib": "./lib"
+    },
+    "main": "./lib",
+    "scripts": {
+        "format": "prettier -w lib/**/*.js",
+        "lint": "eslint .",
+        "test": "echo \"no tests yet\""
+    },
+    "dependencies": {
+        "clamdjs": "^1.0.2",
+        "dompurify": "^2.2.9",
+        "jsdom": "^16.6.0",
+        "lodash": "^4.17.21",
+        "piexifjs": "^1.0.6",
+        "prettier": "^2.5.1",
+        "strapi-plugin-upload": "^3.6.5"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jest": "^25.2.4",
+        "jest": "^27.3.1"
+    },
+    "strapi": {
+        "isProvider": true
+    },
+    "author": "Peter Bevan<peterbevan.dev@gmail.com>",
+    "repository": "https://github.com/beavis07/strapi-provider-upload-clamav-proxy",
+    "bugs": {
+        "url": "https://github.com/strapi/strapi/issues"
+    },
+    "engines": {
+        "node": ">=10.0.0",
+        "npm": ">=6.0.0"
+    },
+    "license": "MIT"
+}

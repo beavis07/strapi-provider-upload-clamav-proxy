@@ -1,6 +1,10 @@
 {
     "name": "strapi-provider-upload-clamav-proxy",
+<<<<<<< HEAD
     "version": "3.0.0",
+=======
+    "version": "4.0.0",
+>>>>>>> Remove depenency on strapi-upload plugin
     "description": "Strapi file upload anti-virus and sanitisation provider",
     "homepage": "https://github.com/beavis07/strapi-provider-upload-clamav-proxy",
     "keywords": [
@@ -24,8 +28,12 @@
         "jsdom": "^16.6.0",
         "lodash": "^4.17.21",
         "piexifjs": "^1.0.6",
+<<<<<<< HEAD
         "prettier": "^2.5.1",
         "strapi-plugin-upload": "^3.2.5"
+=======
+        "prettier": "^2.5.1"
+>>>>>>> Remove depenency on strapi-upload plugin
     },
     "devDependencies": {
         "eslint": "^7.32.0",

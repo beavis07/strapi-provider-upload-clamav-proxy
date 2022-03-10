@@ -1,8 +1,10 @@
 # Strapi Clam AV Upload Provider Proxy
 
+![npm](https://img.shields.io/npm/v/strapi-provider-upload-clamav-proxy)
+
 A Strapi upload provider proxy which will:
 
-- Scan any file any user attempts to upload with Clam AV and reject if infected
+- Scan any file any user attempts to upload with [Clam AV](https://www.clamav.net/) and reject if infected
 - Optionally throw if GIF contains XSS attack
 - Optionally remove XSS attack code from SVG type images
 - Optionally remove XSS attack code from JPEG image EXIF fields

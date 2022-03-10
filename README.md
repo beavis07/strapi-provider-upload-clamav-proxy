@@ -23,7 +23,7 @@ e.g. `config/plugins.js`
 module.exports = {
   ...
   upload: {
-    provider: 'clamav-proxy',
+    provider: 'strapi-provider-upload-clamav-proxy',
     providerOptions: {
       clamav: {
         host: 'my.clamav.host',
@@ -36,7 +36,7 @@ module.exports = {
         gif: true
       },
       // Proxied provider
-      uploadProvider: 'strapi-provider-upload-local',
+      uploadProvider: '@strapi/provider-upload-local',
       sizeLimit: 100000
     }
   }
